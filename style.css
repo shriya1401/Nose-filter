@@ -1,0 +1,35 @@
+body{
+    background-image: linear-gradient(to right top, #d16ba5, #ba88d8, #8ca7fa, #4fc3ff, #20daff, #1cddff, #19e0ff, #18e3ff, #1bd5ff, #5ac3ff, #8eaeff, #b997f2);
+    font-family: 'Nerko One', cursive;
+}
+
+#heading{
+font-size:25px;
+ background-image: linear-gradient(to right, #9466e7, #aa66ed, #bf65f1, #d563f5, #eb60f7);
+ width:30%;
+padding-top:10px;
+ padding-bottom:10px;
+}
+#button{
+background-color:#FFA1D9;
+font-size:20px;
+}
+
+canvas{
+    animation-name:Shriya;
+    animation-duration:5s;
+    animation-iteration-count: infinite;
+    border-width:5px;
+    
+}
+@keyframes Shriya{
+    from{
+        box-shadow:5px 5px 5px #EFA5F7;
+        
+    }
+    to{
+        box-shadow:5px 5px 5px #006D67;
+    }
+}
+
+
